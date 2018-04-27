@@ -341,9 +341,9 @@ ActionButton.propTypes = {
 
   hideShadow: PropTypes.bool,
   shadowStyle: PropTypes.oneOfType([
-    React.PropTypes.object,
-    React.PropTypes.array,
-    React.PropTypes.number
+    PropTypes.object,
+    PropTypes.array,
+    PropTypes.number
   ]),
 
   bgColor: PropTypes.string,
