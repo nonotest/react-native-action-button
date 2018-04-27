@@ -340,7 +340,7 @@ ActionButton.propTypes = {
   zIndex: PropTypes.number,
 
   hideShadow: PropTypes.bool,
-  shadowStyle: React.PropTypes.oneOfType([
+  shadowStyle: PropTypes.oneOfType([
     React.PropTypes.object,
     React.PropTypes.array,
     React.PropTypes.number
